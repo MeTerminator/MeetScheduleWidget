@@ -1,0 +1,42 @@
+# macOS / Windows 系统文件
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# 构建输出
+/build/
+/dist/
+/out/
+/Debug/
+/Release/
+/x64/
+/x86/
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.res
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+
+# Visual Studio 本地状态
+.vs/
+ipch/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# 本地课程缓存（包含个人课表）
+course_cache.json
+course_cache.json.tmp
+
+# 私人日历订阅链接
+meetics.txt
