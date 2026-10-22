@@ -23,9 +23,9 @@
 namespace fs = std::filesystem;
 using namespace Gdiplus;
 
-// 主屏幕完整桌面划分为 8×8 网格；占第 7 行第 7 列（75%–87.5%）。
-constexpr double WidthRatio = 0.125, HeightRatio = 0.125;
-constexpr double CenterX = 0.8125, CenterY = 0.8125;
+// 主屏幕完整桌面划分为 8×8 网格；占第 7 行、第 7–8 列，向右延伸至屏幕边缘。
+constexpr double WidthRatio = 0.25, HeightRatio = 0.125;
+constexpr double CenterX = 0.875, CenterY = 0.8125;
 constexpr UINT DataMessage = WM_APP + 1, TrayMessage = WM_APP + 2;
 constexpr UINT RefreshCommand = 101, StatusCommand = 102, ExitCommand = 103;
 HWND windowHandle = nullptr;
